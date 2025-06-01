@@ -17,6 +17,7 @@ https://askubuntu.com/questions/1512042/ubuntu-24-04-getting-error-you-must-put-
 >If you want to do this using a one line command:
 >
 >`sed -i 's/^Types: deb$/Types: deb deb-src/' /etc/apt/sources.list.d/ubuntu.sources`
+
 ...
 >NOTE if the machine is under control of cloud-init (ignore this for those viewers at home this pertains to some remote cloud Ubuntu VM not your home laptop) instead make a similar addition of deb-src to the template file as per
 >
