@@ -13,3 +13,7 @@ https://askubuntu.com/questions/1512042/ubuntu-24-04-getting-error-you-must-put-
 >Components: main restricted universe multiverse
 >Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 >```
+>
+>If you want to do this using a one line command:
+>
+>`sed -i 's/^Types: deb$/Types: deb deb-src/' /etc/apt/sources.list.d/ubuntu.sources`
